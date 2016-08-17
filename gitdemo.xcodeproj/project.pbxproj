@@ -14,6 +14,7 @@
 		A0ADF3B11D645B39006AD82A /* gitdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF3B01D645B39006AD82A /* gitdemoTests.m */; };
 		A0ADF3BC1D645B39006AD82A /* gitdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF3BB1D645B39006AD82A /* gitdemoUITests.m */; };
 		A0ADF3CB1D645C58006AD82A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF3CA1D645C58006AD82A /* RootViewController.m */; };
+		A0ADF3CE1D645D3A006AD82A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF3CD1D645D3A006AD82A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		A0ADF3BD1D645B39006AD82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0ADF3C91D645C58006AD82A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		A0ADF3CA1D645C58006AD82A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A0ADF3CC1D645D3A006AD82A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A0ADF3CD1D645D3A006AD82A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				A0ADF3A01D645B39006AD82A /* AppDelegate.m */,
 				A0ADF3C91D645C58006AD82A /* RootViewController.h */,
 				A0ADF3CA1D645C58006AD82A /* RootViewController.m */,
+				A0ADF3CC1D645D3A006AD82A /* Person.h */,
+				A0ADF3CD1D645D3A006AD82A /* Person.m */,
 				A0ADF3A21D645B39006AD82A /* Assets.xcassets */,
 				A0ADF3A41D645B39006AD82A /* LaunchScreen.storyboard */,
 				A0ADF3A71D645B39006AD82A /* Info.plist */,
@@ -268,6 +273,7 @@
 			files = (
 				A0ADF3A11D645B39006AD82A /* AppDelegate.m in Sources */,
 				A0ADF39E1D645B39006AD82A /* main.m in Sources */,
+				A0ADF3CE1D645D3A006AD82A /* Person.m in Sources */,
 				A0ADF3CB1D645C58006AD82A /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

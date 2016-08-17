@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-
+#import "Person.h"
 @interface RootViewController ()
 
 @end
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+    
     // Do any additional setup after loading the view.
 }
 
