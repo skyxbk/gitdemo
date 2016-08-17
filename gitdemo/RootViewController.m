@@ -7,7 +7,6 @@
 //
 
 #import "RootViewController.h"
-#import "Person.h"
 @interface RootViewController ()
 
 @end
