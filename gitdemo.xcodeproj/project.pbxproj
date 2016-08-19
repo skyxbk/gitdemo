@@ -14,6 +14,8 @@
 		A0ADF3B11D645B39006AD82A /* gitdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF3B01D645B39006AD82A /* gitdemoTests.m */; };
 		A0ADF3BC1D645B39006AD82A /* gitdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF3BB1D645B39006AD82A /* gitdemoUITests.m */; };
 		A0ADF3CB1D645C58006AD82A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF3CA1D645C58006AD82A /* RootViewController.m */; };
+		A0ADF4461D66B880006AD82A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF4451D66B880006AD82A /* Person.m */; };
+		A0ADF4491D66BD34006AD82A /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF4481D66BD34006AD82A /* Car.m */; };
 		FBF29EBB8A22C895036AF0AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 007F33E1E47F495F1C41B028 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,10 @@
 		A0ADF3BD1D645B39006AD82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0ADF3C91D645C58006AD82A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		A0ADF3CA1D645C58006AD82A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A0ADF4441D66B880006AD82A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A0ADF4451D66B880006AD82A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A0ADF4471D66BD34006AD82A /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		A0ADF4481D66BD34006AD82A /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		AE8F1F9DFD324B1F423A2C33 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +125,10 @@
 				A0ADF3A01D645B39006AD82A /* AppDelegate.m */,
 				A0ADF3C91D645C58006AD82A /* RootViewController.h */,
 				A0ADF3CA1D645C58006AD82A /* RootViewController.m */,
+				A0ADF4441D66B880006AD82A /* Person.h */,
+				A0ADF4451D66B880006AD82A /* Person.m */,
+				A0ADF4471D66BD34006AD82A /* Car.h */,
+				A0ADF4481D66BD34006AD82A /* Car.m */,
 				A0ADF3A21D645B39006AD82A /* Assets.xcassets */,
 				A0ADF3A41D645B39006AD82A /* LaunchScreen.storyboard */,
 				A0ADF3A71D645B39006AD82A /* Info.plist */,
@@ -325,8 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0ADF4491D66BD34006AD82A /* Car.m in Sources */,
 				A0ADF3A11D645B39006AD82A /* AppDelegate.m in Sources */,
 				A0ADF39E1D645B39006AD82A /* main.m in Sources */,
+				A0ADF4461D66B880006AD82A /* Person.m in Sources */,
 				A0ADF3CB1D645C58006AD82A /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

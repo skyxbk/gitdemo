@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Person.h"
+#import "Car.h"
 @interface RootViewController : UIViewController
 
 @end
