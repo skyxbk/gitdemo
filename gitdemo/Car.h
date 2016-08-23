@@ -10,4 +10,6 @@
 
 @interface Car : NSObject
 @property(nonatomic, strong)NSString *carname;
+@property(nonatomic, strong)NSString *sex;
+@property(nonatomic, assign)NSInteger age;
 @end
